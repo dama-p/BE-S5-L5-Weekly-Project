@@ -20,8 +20,8 @@ class Product {
         echo '<div class="card-body">';
         echo '<h5>'.$this->nome.'</h5>';
         echo '<p>'. 'Prezzo: ' . $this->prezzo. '$</p>';
+        echo '<a href="update.php?id=' .$this->id. '"><button class="btn btn-success me-2">Update</button></a>';
         echo '<a href="delete.php?id=' .$this->id. '"><button class="btn btn-danger">Delete</button></a>';
-        echo '<a href="update.php?id=' .$this->id. '"><button class="btn btn-success">Update</button></a>';
         echo '</div></div></div>';
 
     }
