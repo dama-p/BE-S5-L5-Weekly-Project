@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -18,7 +23,7 @@
         <div class="container">
             <span class="navbar-brand mb-0 h1"><a href="index.php">Blooming garden</a></span>
 
-            <div class="styledLinks"><a href="index.php">Esci</a>
+            <div class="styledLinks"><a href="destroy.php">Esci</a>
             <a href="inserisci.php">Inserisci</a></div>
             
         </div>
