@@ -10,13 +10,18 @@ include_once __DIR__.'/getCard.php';
     <h1 class="my-5">Sezione amministratore</h1>
     
 
-<div class="row">
+<div class="row gy-3">
 
 <?php
 
+$products=[];
 
 foreach ($articoli as $row) {
-    $product = new Product($row['id'], $row['nome'], $row['prezzo'], $row['img']);
+    $products[] = new Product($row['id'], $row['nome'], $row['prezzo'], $row['img']);
+}
+
+foreach ($products as $row) {
+    $row->render();
 }
 
 ?>

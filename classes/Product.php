@@ -10,13 +10,20 @@ class Product {
         $this->nome = $nome;
         $this->prezzo = $prezzo;
         $this->img = $img;
+        
+    }
+
+    function render() {
         echo '<div class="col-3">';
         echo '<div class="card" style="width: 100%;">';
         echo '<img src="'.$this->img.'" class="card-img-top" alt="img">';
         echo '<div class="card-body">';
         echo '<h5>'.$this->nome.'</h5>';
         echo '<p>'. 'Prezzo: ' . $this->prezzo. '$</p>';
+        echo '<a href="delete.php?id=' .$this->id. '"><button class="btn btn-danger">Delete</button></a>';
+        echo '<a href="update.php?id=' .$this->id. '"><button class="btn btn-success">Update</button></a>';
         echo '</div></div></div>';
+
     }
 
 }

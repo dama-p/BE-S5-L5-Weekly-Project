@@ -1,7 +1,28 @@
 <?php
 
-include __DIR__ . '/header.php';
 include __DIR__ . '/init.php';
+include __DIR__ . '/header.php';
+
+
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+   
+        // Ottenere i dati dal form
+        $nome = $_POST['nome'];
+        $prezzo = $_POST['prezzo'];
+        $img = $_POST['img'];
+
+        $stmt = $pdo->prepare("INSERT INTO articoli (nome, prezzo, img) VALUES (:nome, :prezzo, :img)");;
+        $stmt->execute([
+            'nome' => $nome,
+            'prezzo' => $prezzo,
+            'img' => $img,
+           
+        ]);
+        header('Location: admin.php');
+
+   
+}
 
 ?>
 
