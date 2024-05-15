@@ -14,7 +14,7 @@ class Product {
     }
 
     function render() {
-        echo '<div class="col-3">';
+        echo '<div class="col-12 col-md-6 col-lg-4">';
         echo '<div class="card" style="width: 100%;">';
         echo '<img src="'.$this->img.'" class="card-img-top" alt="img">';
         echo '<div class="card-body">';

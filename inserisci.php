@@ -27,22 +27,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 
-<h1>Inserisci un nuovo prodotto</h1>
+<h1 class="my-5">Submit a new product</h1>
 <form method="post" action="">
     <div class="mb-3">
-        <label for="nome" class="form-label">Nome</label>
+        <label for="nome" class="form-label">Name</label>
         <input type="text" class="form-control" name="nome" id="nome" aria-describedby="nome" required>
     </div>
     <div class="mb-3">
-        <label for="prezzo" class="form-label">Prezzo</label>
+        <label for="prezzo" class="form-label">Price</label>
         <input type="number" class="form-control" name="prezzo" id="prezzo" aria-describedby="prezzo" required>
     </div>
     <div class="mb-3">
-        <label for="img" class="form-label">Url Immagine</label>
+        <label for="img" class="form-label">Image Url</label>
         <input type="text" class="form-control" name="img" id="img" aria-describedby="img" required>
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-success mt-5">Submit</button>
 </form>
 
 <?php

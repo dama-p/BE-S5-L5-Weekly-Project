@@ -39,18 +39,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <form action="" method="POST" novalidate>
     <input type="hidden" name="id" value="<?= $row['id'] ?>">
     <div class="mb-3">
-        <label for="nome" class="form-label">Title</label>
+        <label for="nome" class="form-label">Name</label>
         <input type="text" class="form-control" id="nome" name="nome" value="<?= $row['nome'] ?>">
     </div>
     <div class="mb-3">
-        <label for="prezzo" class="form-label">Publishing Date</label>
+        <label for="prezzo" class="form-label">Price</label>
         <input type="number" class="form-control" id="prezzo" name="prezzo" value="<?= $row['prezzo'] ?>">
     </div>
     <div class="mb-3">
-        <label for="img" class="form-label">Book img</label>
+        <label for="img" class="form-label">Image URL</label>
         <input type="text" class="form-control" id="img" name="img" value="<?= $row['img'] ?>">
     </div>
-    <button type="submit" class="btn btn-primary">Save changes</button>
+    <button type="submit" class="btn btn-success mt-5">Save changes</button>
 </form>
 </div>
 

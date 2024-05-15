@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(202, 219, 213);
+}
+
+.navbarStyle a {
+  color: rgb(47, 125, 99);
+  text-decoration: none;
+}
+
+.navbarStyle a:hover {
+  color: rgb(89, 204, 166);
+  text-decoration: underline;
+}
+
+.card-img-top {
+  height: 10rem;
+}
+
+.footerStyle {
+  background-color: #f8f9fa;
+}
+
+.footerStyle a {
+  color: #3e6b4d;
+}
+
+.styledLinks a{
+    padding-inline: 10px;
+    color: rgb(89, 204, 166);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h1 {
+    color: white;
+}

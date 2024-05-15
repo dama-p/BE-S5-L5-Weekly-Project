@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 ?>
 
 
-<h1>Login</h1>
+<h1 class="my-5">Login</h1>
 <form method="post" action="">
     <div class="mb-3">
         <label for="utente" class="form-label">Utente</label>
@@ -17,7 +17,7 @@ include __DIR__ . '/header.php';
         <input type="password" class="form-control" name="password" id="exampleInputPassword1">
     </div>
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-success mt-5">Submit</button>
 </form>
 
 <?php

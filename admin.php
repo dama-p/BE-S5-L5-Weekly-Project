@@ -7,7 +7,7 @@ include_once __DIR__.'/getCard.php';
 
 
 
-    <h1 class="my-5">Sezione amministratore</h1>
+    <h1 class="my-5" style="text-align:right; color:white;">Admin Page</h1>
     
 
 <div class="row gy-3">
