@@ -13,10 +13,15 @@
 </head>
 
 <body>
-<nav class="navbar fixed-top bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">The Blooming Garden</a>
-  </div>
-</nav>
+<nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Blooming garden</span>
+
+            <div><a href="index.php">Esci</a>
+            <a href="inserisci.php">Inserisci</a></div>
+            
+        </div>
+
+    </nav>
     
     <div class="container py-5">
