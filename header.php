@@ -13,5 +13,10 @@
 </head>
 
 <body>
+<nav class="navbar fixed-top bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">The Blooming Garden</a>
+  </div>
+</nav>
     
     <div class="container py-5">
