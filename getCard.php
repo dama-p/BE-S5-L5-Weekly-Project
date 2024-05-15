@@ -6,4 +6,4 @@ $sql = "SELECT * FROM articoli";
 $stmt = $pdo->query($sql);
 $articoli = $stmt->fetchAll();
 
-var_dump($articoli);
+/* var_dump($articoli); */

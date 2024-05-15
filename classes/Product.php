@@ -15,7 +15,7 @@ class Product {
         echo '<img src="'.$this->img.'" class="card-img-top" alt="img">';
         echo '<div class="card-body">';
         echo '<h5>'.$this->nome.'</h5>';
-        echo '<p>'.$this->prezzo.'</p>';
+        echo '<p>'. 'Prezzo: ' . $this->prezzo. '$</p>';
         echo '</div></div></div>';
     }
 
